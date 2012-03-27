@@ -1,4 +1,4 @@
-# revision 25142
+# revision 25629
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20120224
+Version:	20120327
 Release:	1
 Summary:	PSTricks packages
 Group:		Publishing
@@ -16,6 +16,8 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pstric
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
+Requires:	texlive-collection-genericrecommended
 Requires:	texlive-auto-pst-pdf
 Requires:	texlive-bclogo
 Requires:	texlive-makeplot
@@ -98,8 +100,7 @@ Requires:	texlive-pstricks-add
 Requires:	texlive-pstricks_calcnotes
 Requires:	texlive-uml
 Requires:	texlive-vaucanson-g
-Requires:	texlive-collection-basic
-Requires:	texlive-collection-genericrecommended
+Requires:	texlive-vocaltract
 
 %description
 TeXLive collection-pstricks package.
