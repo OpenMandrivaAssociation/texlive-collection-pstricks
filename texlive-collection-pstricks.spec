@@ -1,4 +1,4 @@
-# revision 25629
+# revision 25962
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20120327
+Version:	20120810
 Release:	1
 Summary:	PSTricks packages
 Group:		Publishing
@@ -22,6 +22,7 @@ Requires:	texlive-auto-pst-pdf
 Requires:	texlive-bclogo
 Requires:	texlive-makeplot
 Requires:	texlive-pdftricks
+Requires:	texlive-pedigree-perl
 Requires:	texlive-psbao
 Requires:	texlive-pst-2dplot
 Requires:	texlive-pst-3d
