@@ -1,4 +1,4 @@
-# revision 25962
+# revision 27431
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	PSTricks packages
 Group:		Publishing
@@ -68,6 +68,7 @@ Requires:	texlive-pst-math
 Requires:	texlive-pst-mirror
 Requires:	texlive-pst-node
 Requires:	texlive-pst-ob3d
+Requires:	texlive-pst-ode
 Requires:	texlive-pst-optexp
 Requires:	texlive-pst-optic
 Requires:	texlive-pst-osci
