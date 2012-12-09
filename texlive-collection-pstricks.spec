@@ -1,4 +1,4 @@
-# revision 27431
+# revision 25962
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20121030
+Version:	20120810
 Release:	1
 Summary:	PSTricks packages
 Group:		Publishing
@@ -68,7 +68,6 @@ Requires:	texlive-pst-math
 Requires:	texlive-pst-mirror
 Requires:	texlive-pst-node
 Requires:	texlive-pst-ob3d
-Requires:	texlive-pst-ode
 Requires:	texlive-pst-optexp
 Requires:	texlive-pst-optic
 Requires:	texlive-pst-osci
@@ -117,3 +116,20 @@ TeXLive collection-pstricks package.
 %build
 
 %install
+
+
+%changelog
+* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
++ Revision: 813969
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
++ Revision: 787864
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780508
+- Update to latest release.
+- Import texlive-collection-pstricks
+- Import texlive-collection-pstricks
+
