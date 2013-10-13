@@ -1,4 +1,4 @@
-# revision 25962
+# revision 31016
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
-Summary:	PSTricks packages
+Summary:	PSTricks
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -22,6 +22,7 @@ Requires:	texlive-auto-pst-pdf
 Requires:	texlive-bclogo
 Requires:	texlive-makeplot
 Requires:	texlive-pdftricks
+Requires:	texlive-pdftricks2
 Requires:	texlive-pedigree-perl
 Requires:	texlive-psbao
 Requires:	texlive-pst-2dplot
@@ -46,6 +47,7 @@ Requires:	texlive-pst-eps
 Requires:	texlive-pst-eucl
 Requires:	texlive-pst-exa
 Requires:	texlive-pst-fill
+Requires:	texlive-pst-fit
 Requires:	texlive-pst-fr3d
 Requires:	texlive-pst-fractal
 Requires:	texlive-pst-fun
@@ -68,6 +70,7 @@ Requires:	texlive-pst-math
 Requires:	texlive-pst-mirror
 Requires:	texlive-pst-node
 Requires:	texlive-pst-ob3d
+Requires:	texlive-pst-ode
 Requires:	texlive-pst-optexp
 Requires:	texlive-pst-optic
 Requires:	texlive-pst-osci
@@ -93,6 +96,7 @@ Requires:	texlive-pst-tools
 Requires:	texlive-pst-tree
 Requires:	texlive-pst-tvz
 Requires:	texlive-pst-uml
+Requires:	texlive-pst-vectorian
 Requires:	texlive-pst-vowel
 Requires:	texlive-pst-vue3d
 Requires:	texlive-pst2pdf
@@ -104,7 +108,7 @@ Requires:	texlive-vaucanson-g
 Requires:	texlive-vocaltract
 
 %description
-TeXLive collection-pstricks package.
+PSTricks core and all add-on packages.
 
 #-----------------------------------------------------------------------
 %files
@@ -116,20 +120,3 @@ TeXLive collection-pstricks package.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813969
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787864
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780508
-- Update to latest release.
-- Import texlive-collection-pstricks
-- Import texlive-collection-pstricks
-
