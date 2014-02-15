@@ -1,4 +1,4 @@
-# revision 31016
+# revision 32514
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	PSTricks
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -74,6 +74,7 @@ Requires:	texlive-pst-ode
 Requires:	texlive-pst-optexp
 Requires:	texlive-pst-optic
 Requires:	texlive-pst-osci
+Requires:	texlive-pst-ovl
 Requires:	texlive-pst-pad
 Requires:	texlive-pst-pdgr
 Requires:	texlive-pst-platon
