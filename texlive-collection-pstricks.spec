@@ -1,4 +1,4 @@
-# revision 32514
+# revision 33014
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20140215
+Version:	20140318
 Release:	1
 Summary:	PSTricks
 Group:		Publishing
@@ -59,6 +59,7 @@ Requires:	texlive-pst-gr3d
 Requires:	texlive-pst-grad
 Requires:	texlive-pst-graphicx
 Requires:	texlive-pst-infixplot
+Requires:	texlive-pst-intersect
 Requires:	texlive-pst-jtree
 Requires:	texlive-pst-knot
 Requires:	texlive-pst-labo
