@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20180303
-Release:	2
+Version:	20180720
+Release:	1
 Summary:	PSTricks
 Group:		Publishing
 URL:		http://tug.org/texlive
