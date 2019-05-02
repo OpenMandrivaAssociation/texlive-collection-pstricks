@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20181205
+Version:	20190228
 Release:	1
 Summary:	PSTricks
 Group:		Publishing
