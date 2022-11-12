@@ -1,18 +1,12 @@
-# revision 33373
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	20190228
+Version:	61329
 Release:	1
 Summary:	PSTricks
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pstricks.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pstricks.r61329.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -118,7 +112,7 @@ PSTricks core and all add-on packages.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
