@@ -1,6 +1,6 @@
 Name:		texlive-collection-pstricks
 Epoch:		1
-Version:	61329
+Version:	65367
 Release:	1
 Summary:	PSTricks
 Group:		Publishing
