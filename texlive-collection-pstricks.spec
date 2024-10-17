@@ -4,7 +4,7 @@ Version:	65367
 Release:	2
 Summary:	PSTricks
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pstricks.r%{version}.tar.xz
 BuildArch:	noarch
